@@ -72,7 +72,7 @@ addons:
       - lzip
       - mingw-w64
       - moreutils
-      - wine
+      - wine-development 3.6-1
 
 script:
   - ./.travis.sh
