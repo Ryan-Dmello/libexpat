@@ -72,7 +72,6 @@ addons:
       - lzip
       - mingw-w64
       - moreutils
-      - wine-stable
 
 script:
   - ./.travis.sh
