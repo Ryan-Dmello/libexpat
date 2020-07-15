@@ -5,7 +5,7 @@ language: cpp
 os:
   - linux
   - osx
-dist: focal
+dist: bionic
 arch:
   - ppc64le
 git:
