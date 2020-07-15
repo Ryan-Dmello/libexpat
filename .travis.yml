@@ -5,7 +5,7 @@ language: cpp
 os:
   - linux
   - osx
-dist: focal
+dist: xenial
 arch:
   - ppc64le
 git:
@@ -72,6 +72,7 @@ addons:
       - lzip
       - mingw-w64
       - moreutils
+      - wine
 
 script:
   - ./.travis.sh
