@@ -6,7 +6,8 @@ os:
   - linux
   - osx
 dist: trusty
-
+arch:
+  - ppc64le
 git:
   depth: 50
 
